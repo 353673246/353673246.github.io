@@ -1,0 +1,67 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <meta charset="utf-8" />  
+        <title>弹力球</title>  
+
+        <style>
+            canvas{
+                display: block;
+                border: 1px solid black;
+                margin: auto;
+            }
+        </style>
+    </head>  
+    <body>  
+        <canvas id="canvas" width="1024" height="700"></canvas> 
+    <script>
+    var timer;
+	var ball = {
+        x:800,
+        y:100,
+        r:20,
+        g:2,
+        vx:-4,
+        vy:0,
+        color:"#151354"
+    }  
+    window.onload = function(){  
+    var canvas = document.getElementById("canvas");   
+    var context = canvas.getContext("2d");   
+function move(){  
+    ball.x += ball.vx;  
+    ball.y += ball.vy;  
+    ball.vy += ball.g;  
+      
+    if(ball.y > 700- ball.r){  
+        ball.y = 700- ball.r;  
+        ball.vy = -ball.vy*0.5;  
+    }  else if (ball.x === 400){
+        ball.vy = -ball.vy*0;
+    }
+    else if (ball.x ===  104){
+        clearInterval(timer);
+    }
+    console.log(ball.x);
+
+}  
+function loading(cxt){  
+    cxt.clearRect(0,0,cxt.canvas.width,cxt.canvas.height);
+    var Color = cxt.createLinearGradient(840,100,760,100);
+    Color.addColorStop(0,"#a6c0fe");
+    Color.addColorStop(1,"#f68084");
+    cxt.fillStyle=Color;  
+    cxt.beginPath();  
+    cxt.arc(ball.x,ball.y,ball.r,0,2*Math.PI);  
+    cxt.closePath();  
+    cxt.fill();  
+}  
+
+timer =  setInterval(function(){  
+        loading(context);  
+        move()  
+         },30)  
+    }  
+</script> 
+    </body>  
+</html>  
