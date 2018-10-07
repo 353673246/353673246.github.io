@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*css初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{
+    margin: 0px;
+    padding:0px;
+}
+html{
+    color:#000;
+    background:#fff;
+    overflow: hidden;
+    height:100%;
+}
+body{
+    font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    position: relative;
+    min-width:1226px;
+    height: 100%;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
