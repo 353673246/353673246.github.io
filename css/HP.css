@@ -1,0 +1,64 @@
+.HP-wrap {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: url(./../img/bck.png) no-repeat center center;
+  background-attachment: fixed;
+  background-size: 100% 100%; }
+  .HP-wrap .HP {
+    width: 100%;
+    position: relative; }
+    .HP-wrap .HP .HPHeader {
+      position: relative;
+      width: 100%;
+      color: #fff; }
+    .HP-wrap .HP .HPTitle {
+      position: relative;
+      width: 100%; }
+      .HP-wrap .HP .HPTitle .HPTitle-wrap {
+        position: relative;
+        width: 100%; }
+    .HP-wrap .HP .HPUser {
+      position: relative;
+      width: 100%; }
+      .HP-wrap .HP .HPUser .HPUser-wrap {
+        width: 100%; }
+    .HP-wrap .HP .HPImg {
+      position: relative;
+      width: 100%; }
+      .HP-wrap .HP .HPImg .HPImg-wrap {
+        position: relative;
+        width: 100%; }
+        .HP-wrap .HP .HPImg .HPImg-wrap .ReceiveImg {
+          display: inline-block;
+          position: absolute;
+          top: 18%;
+          left: -7%;
+          margin-top: 0px;
+          margin-left: 0px;
+          width: 100%;
+          height: 10vh; }
+    .HP-wrap .HP .HPActive {
+      position: relative;
+      width: 100%;
+      height: 30vh;
+      box-sizing: border-box;
+      padding: 0px 30px;
+      margin-top: 10px; }
+      .HP-wrap .HP .HPActive .HPActive-wrap {
+        width: 100%;
+        height: 100%;
+        background: rgba(173, 66, 66, 0.5);
+        line-height: 30vh; }
+    .HP-wrap .HP .HPActiveStep {
+      position: relative;
+      width: 100%; }
+      .HP-wrap .HP .HPActiveStep .HPActiveStep-wrap {
+        width: 100%; }
+    .HP-wrap .HP .HPRule {
+      position: relative;
+      width: 100%; }
+      .HP-wrap .HP .HPRule .HPRule-wrap {
+        width: 100%; }
+
+/*# sourceMappingURL=HP.css.map */
