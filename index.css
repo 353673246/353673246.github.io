@@ -1,0 +1,91 @@
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,p,th,td { 
+    margin:0; 
+    padding:0; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+a{  
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+}
+ul , li{
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+
+.Step_Container{
+    width: 100%;
+}
+
+.Step_Container .StepComm_Container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 20px 40px 20px;
+    background-color: #000;
+}
+.StepComm_Container .StepComm_Tit{
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #d5ac63;
+}
+.StepComm_Container .StepComm_Info{
+    width: 100%;
+    margin-top: 20px;
+    /* text-align: center; */
+
+}
+.StepComm_Info .active{
+    color: #d5ac63;
+    font-size: 20px;
+}
+.StepComm_Container .StepComm_Img{
+    width: 50%;
+    margin:20px auto;
+}
+.StepComm_Container .StepComm_AImg{
+    width: 50%;
+    margin:0px auto;
+}
+/* 头部图片 */
+.Step_Container .StepLogo_Container{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.StepLogo_Container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 活动规则 */
+.StepComm_Container .StepRule_Main{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #d5ac63;
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+.StepRule_Main ul{
+    width: 100%;
+    color: #fff;
+}
+.StepRule_Main ul span{
+    color: #d5ac63;
+    font-size: 20px;
+}
+/* 如何参加活动 */
